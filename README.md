@@ -1,4 +1,4 @@
-# Evergreen Items Backend API
+# Task with websocket Backend API
 
 ## 📄 Project Overview
 
@@ -11,33 +11,44 @@ A Node.js backend API for real-time collaborative item management with WebSocket
 ## 🛠️ Setup Instructions
 
 1. **Clone the repository:**
+
 ```
 git clone https://github.com/TitusKI/Tasker-with-websocket
 
 ```
+
 2. **Navigate to the project directory:**
+
 ```
 cd Tasker-with-websocket
 
 ```
+
 3. **Install dependencies:**
+
 ```
 npm install
 
 ```
+
 4. **Set up environment variables:**
+
 ```
 cp .env.example .env
 
 ```
+
 5. **Start the server:**
+
 ```
 npm start
 
 ```
+
 ## ✨ Features
 
 **Core Features:**
+
 - RESTful API for CRUD operations
 - Real-time WebSocket communication
 - MongoDB data persistence
@@ -45,18 +56,21 @@ npm start
 - Cross-origin resource sharing (CORS)
 
 **API Endpoints:**
+
 - `GET /api/items` - Fetch all items
 - `POST /api/items` - Create new item
 - `PUT /api/items/:id` - Update item
 - `DELETE /api/items/:id` - Delete item
 
 **Real-time Events:**
+
 - `ITEM_CREATED` - New item added
 - `ITEM_UPDATED` - Item modified
 - `ITEM_DELETED` - Item removed
 - `ACTIVE_USERS_COUNT` - User count updates
 
 **Technical:**
+
 - Express.js web framework
 - Socket.IO for WebSocket connections
 - MongoDB with Mongoose ODM
@@ -74,7 +88,9 @@ src/
  └── config/              # Configuration files
 
 ```
+
 ## 🔧 Key Dependencies
+
 ```
 {
    "dependencies": {
@@ -90,6 +106,7 @@ src/
 }
 
 ```
+
 ## 🗄️ Database Schema
 
 ```
